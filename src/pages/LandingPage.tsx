@@ -1,9 +1,12 @@
 import React from 'react';
-import { Button } from '../components';
+import { Button, Header } from '../components';
+import { Stack } from '@mui/material';
+
 
 const LandingPage = () => {
     return (
-        <div>
+        <Stack>
+            <Header/>
             <h1>Landing Page</h1>
             <Button
                 label="Login"
@@ -11,7 +14,7 @@ const LandingPage = () => {
                     alert('Login button clicked');
                 }}
             />
-        </div>
+        </Stack>
     );
 };
 
