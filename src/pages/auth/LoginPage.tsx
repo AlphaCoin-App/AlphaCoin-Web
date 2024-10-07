@@ -1,19 +1,18 @@
-import React from 'react';
-import { Button } from '../../components';
+import React from "react";
+import { Button } from "../../components";
 
 const LoginPage = () => {
-    return (
-        <div>
-            <Button
-                label="Login"
-                onClick={() => {
-                    alert('Login button clicked');
-                }}
-            />
-
-        </div>
-    );
+  return (
+    <div>
+      <Button
+        label="Login"
+        onClick={() => {
+          alert("Login button clicked");
+        }}
+        buttonType="primary"
+      />
+    </div>
+  );
 };
 
-export default LoginPage
-
+export default LoginPage;
