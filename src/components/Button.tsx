@@ -1,3 +1,4 @@
+import { ConfigFn } from "@testing-library/react";
 import React from "react";
 
 const baseButton = "font-bold py-2 px-4 rounded-full drop-shadow-lg m-2 ";
