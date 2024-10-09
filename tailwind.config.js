@@ -5,10 +5,11 @@ module.exports = {
     "./public/index.html", // Include your main HTML file as well
   ],
   theme: {
-    // colors: {
-    //   sky: "#e0f2fe",
-    // },
-    extend: {},
+    extend: {
+      colors: {
+        sky: "#e0f2fe",
+      },
+    },
   },
   plugins: [],
 };

@@ -7,7 +7,7 @@ const Header = () => {
     <Stack
       spacing={2}
       direction={"row"}
-      className="bg-[#e0f2fe] rounded-b-2xl drop-shadow-md"
+      className="bg-sky rounded-b-2xl drop-shadow-md"
       justifyContent="space-between"
       sx={{ p: 2 }}
     >
@@ -17,13 +17,13 @@ const Header = () => {
         justifyContent="space-between"
       >
         <Button
-          label="Logo"
+          label="A"
           onClick={() => {
             alert("Clicked LOGO");
           }}
           buttonType="primary"
         ></Button>
-        <h1 className="content-center">AlphaCoin</h1>
+        <h1 className="content-center text-xl font-bold">AlphaCoin</h1>
       </Box>
       <Box sx={{ marginLeft: "auto" }}>
         <Button
