@@ -1,8 +1,10 @@
 import React from "react";
 import { Box, ClickAwayListener, Stack } from "@mui/material";
 import Button from "./Button";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const navigate = useNavigate();
   return (
     <Stack
       spacing={2}
@@ -29,7 +31,7 @@ const Header = () => {
         <Button
           label="Login"
           onClick={() => {
-            alert("Clicked Login");
+            navigate("/login");
           }}
           buttonType="primary"
         ></Button>
