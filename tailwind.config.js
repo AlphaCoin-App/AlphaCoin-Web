@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         sky: "#e0f2fe",
       },
+      outlineColor: ["sky"],
     },
   },
   plugins: [],
